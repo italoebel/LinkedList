@@ -76,7 +76,8 @@ int main()
 
     ListaImprimir(lista);
 
-    PopList(lista);
+    int ValorPopado = PopList(lista);
+    printf("\n\nValor popado = %d\n", ValorPopado);
 
     printf("\n\n");
 
